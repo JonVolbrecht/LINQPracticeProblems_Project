@@ -69,11 +69,13 @@ namespace PracticeProblemsLINQ
         {
             //code
 
-           
+            var customerList = from s in customers
+                               where s.Id == 3
+                               select s;
 
             //return
 
-            
+            return (Customer)customerList;
 
         }
         #endregion
