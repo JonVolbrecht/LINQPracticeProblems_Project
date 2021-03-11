@@ -50,7 +50,13 @@ namespace PracticeProblemsLINQ
         {
             //code
 
+            var listOfMikes = from s in customers
+                             where s.FirstName == "Mike"
+                             select s;
+
             //return
+
+            return (Customer)listOfMikes;
 
         }
         #endregion
@@ -63,7 +69,11 @@ namespace PracticeProblemsLINQ
         {
             //code
 
+           
+
             //return
+
+            
 
         }
         #endregion
