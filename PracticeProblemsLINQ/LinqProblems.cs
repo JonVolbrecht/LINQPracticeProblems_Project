@@ -17,7 +17,14 @@ namespace PracticeProblemsLINQ
         public static List<string> RunProblem1(List<string> words)
         {
             //code
-
+            var wordsWithTH = from name in words
+                              where name.Contains("th")
+                              select name;
+            foreach (var name in wordsWithTH)
+            {
+                Console.WriteLine(name + " ");
+            }
+            Console.ReadLine();
             //return
 
         }
