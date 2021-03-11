@@ -17,7 +17,10 @@ namespace PracticeProblemsLINQ
             Console.ReadLine();
 
             //Problem 2
-            
+            List<string> names = new List<string>() { "Mike", "Brad", "Nevin", "Ian", "Mike" };
+            List<string> value = LinqProblems.RunProblem2(names);
+            Console.WriteLine(value);
+            Console.ReadLine();
 
 
 
