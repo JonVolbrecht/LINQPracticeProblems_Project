@@ -17,7 +17,8 @@ namespace PracticeProblemsLINQ
             Console.ReadLine();
 
             //Problem 2
-            List<string> names = new List<string>() { "Mike", "Brad", "Nevin", "Ian", "Mike" };
+            
+
 
 
             //Problem 3 & Problem 4

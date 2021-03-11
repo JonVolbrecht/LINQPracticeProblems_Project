@@ -36,6 +36,13 @@ namespace PracticeProblemsLINQ
         public static List<string> RunProblem2(List<string> names)
         {
             //code
+            List<string> distinct = names.Distinct().ToList();
+
+            foreach (string value in distinct)
+            {
+                Console.WriteLine(value);
+            }
+            Console.ReadLine();
 
             //return
 
